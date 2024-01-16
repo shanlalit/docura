@@ -14,7 +14,7 @@
         {{- $pageSlug := $page.title | urlize -}}
         {{- $isActivePage := eq $urlPageSlug $pageSlug -}}
 
-        {{ if eq .Site.Language.Lang .Site.DefaultContentLanguage }}
+        {{ if eq $.Site.Language.Lang $.Site.Language }}
           {{ $href := printf "/%s/%s/" $.Section $pageSlug }}
           <a class="sidebar-link {{ if $isActivePage }}current{{ end }}" href="{{ $href }}">
             {{ if and (eq $index 0) $group.replaceFirstPageTitle }}
