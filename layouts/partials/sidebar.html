@@ -11,7 +11,7 @@
       <strong class="sidebar-section">{{ $group.title }}</strong>
 
       {{- range $index, $page := $group.pages -}}
-        {{- $pageSlug := $page.title | urlize -}}
+        {{- $pageSlug := $page.slug | urlize -}}
         {{- $isActivePage := eq $urlPageSlug $pageSlug -}}
 
         {{ if eq $.Site.Language.Lang $.Site.Language }}

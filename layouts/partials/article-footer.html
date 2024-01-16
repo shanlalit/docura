@@ -21,7 +21,7 @@
     {{ end }}
 
     {{- range $page := $group.pages -}}
-      {{- $pageSlug := $page.title | urlize -}}
+      {{- $pageSlug := $page.slug | urlize -}}
       {{- $isActivePage := or $isSectionIndex (eq $urlPageSlug $pageSlug) -}}
 
       {{ if $isActivePagePassed }}
