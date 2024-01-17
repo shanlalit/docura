@@ -1,6 +1,6 @@
 name = "Docura"
 license = "MIT"
-licenselink = "https://github.com/docura/docura/blob/main/LICENSE"
+licenselink = "https://github.com/shanlalit/docura/blob/main/LICENSE"
 description = "A modular Hugo theme for your next documentation site"
 homepage = "https://docura.github.io"
 demosite = "https://docura.github.io"

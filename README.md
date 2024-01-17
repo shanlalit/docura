@@ -22,7 +22,7 @@ A modular Hugo theme to build your next documentation site
     hugo new site newsite
     cd newsite
     git init
-    git submodule add https://github.com/docura/docura.git themes/docura
+    git submodule add https://github.com/shanlalit/docura.git themes/docura
     rm hugo.toml && cp themes/docura/hugo.yaml .
     hugo server
     ```

@@ -1,3 +1,3 @@
-module github.com/docura/docura
+module github.com/shanlalit/docura
 
 go 1.20
